@@ -45,11 +45,18 @@ a {
     color: #A6A6A6;
     cursor: pointer;
     font-size: 1rem;
+    margin-left: 12px;
 }
 
 #nav {
     margin-bottom: 82px;
     margin-top: 23px;
+}
+
+#name-redirect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #header-img {
@@ -86,6 +93,10 @@ a {
 
 #bedring-app-image {
     margin-bottom: 45px;
+}
+
+.icon {
+    height: 50px;
 }
 
 .button {

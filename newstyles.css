@@ -1,0 +1,168 @@
+* { 
+	box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+    margin: 0 33px 0 33px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+p, h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin: 80px 0;
+}
+
+header {
+    margin-bottom: 120px;
+}
+
+#name-redirect {
+    align-items: center;
+}
+
+#name-redirect, .name-type {
+    display: flex;
+    flex-direction: row;
+}
+
+#name {
+    margin-left: 8px;
+
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#nav {
+    margin-bottom: 80px;
+}
+
+#header-img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header-title, #footer-header {
+    font-size: 2.18rem;
+}
+
+#header-subtitle {
+    font-size: 1.375rem;
+}
+
+#header-subtitle, .bedring-subtitle {
+    margin-top: 8px;
+}
+
+#header-subtitle {
+    margin-bottom: 24px;
+}
+
+.button {
+    background-color: #2AC898;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 50px;
+    width: 184px;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.project-image, #bedring-image {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.name-type {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.project-name, .project-type, #name, #footer-subtext {
+    font-size: 1rem;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-section {
+    margin-bottom: 40px;
+}
+
+#footer-header {
+    font-size: 1.625rem;
+}
+
+#functionality-subtitle, #footer-subtext {
+    margin-top: 6px;    
+}
+
+
+#footer-subtext {
+    margin-bottom: 24px;
+}
+
+#bedring-image {
+    margin-bottom: 20px;
+}
+
+.technical-information {
+    margin-bottom: 80px;
+}
+
+.functionality {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+@media only screen and (min-width: 720px) {
+    body {
+        margin: 0 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    
+
+
+    .project-image, #header-img, footer, #bedring-image, .header-container, header, main   {
+        width: 600px;
+    }
+
+}
+
+
+@media only screen and (min-width: 977px) {
+
+}

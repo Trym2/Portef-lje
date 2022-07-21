@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Webutvikler og apputvikler med stor interesse for brukeropplevelse og design."/>
     <title>Trym Foss</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="newstyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -17,36 +17,39 @@
   </head>
   <body>
     <nav id="nav">
-      <a href="index.html" id="name-redirect"><img class="icon" alt="Personlig ikon" src="android-chrome-192x192.png" /><h5 id="name">Trym Foss</h5></a>
+      <a href="index.html" id="name-redirect"><img class="icon" alt="personlig ikon" width="30" height="30" src="Group 6.svg" /><h5 id="name">Trym Foss</h5></a>
     </nav>
     <header>
-        <img id="bedring-app-image" src="iPhone 13.png" alt="bedring mobilapplikasjon mockup" width="430" height="492" />
-      <div>
-        <h1 class="header-title">Bedring</h1>
-        <p class="grey-style">Bedring er en app der man kan finne behandlere innenfor trening og helse. Med kartfunksjonen kan du finne fysioterapeuter, ernæringsfysiologer og personlig trenere i ditt nærområde.</p>
+        <img id="bedring-image" src="iPhone 13 mockup held by user against plain white surface (Mockuuups Studio).png" alt="bedring mobilapplikasjon mockup" width="566" height="580" />
+      <div class="header-container">
+        <h1 class="bedring-title">Bedring</h1>
+        <p class="bedring-subtitle">Bedring er en app der man kan finne behandlere innenfor trening og helse. Med kartfunksjonen kan du finne fysioterapeuter, ernæringsfysiologer og personlig trenere i ditt nærområde.</p>
         <br>
-        <p class="grey-style">Målet med appen var å gi behandlere en måte å freelance på, men også å gjøre det lettere å finne behandlere. Behandlere har full kontroll over timelengder de ønsker å tilby, priser, og timeplan.</p>
+        <p class="">Målet med appen var å gi behandlere en måte å freelance på, men også å gjøre det lettere å finne behandlere. Behandlere har full kontroll over timelengder de ønsker å tilby, priser, og timeplan.</p>
         <br>
-        <p class="grey-style">Kunder kan finne behandlere i sitt nærområde via kartfunksjon. Deretter kan man trykke seg inn, og lese anmeldelser fra tidligere kunder, samt booke time gjennom appen.</p>
+        <p class="">Kunder kan finne behandlere i sitt nærområde via kartfunksjon. Deretter kan man trykke seg inn, og lese anmeldelser fra tidligere kunder, samt booke time gjennom appen.</p>
       </div>
   </header>
     <main>
-        <h1 class="header-title technical-title">Teknisk informasjon</h1>
+      <div class="technical-information">
+        <h1>Teknisk informasjon</h1>
         <ul>
             <li>Frontend er skrevet i Dart med Flutter som rammeverk.</li>
             <li>Backend er skrevet med NodeJS, MongoDB og ExpressJS.</li>
             <li>For å verifisere requests har jeg brukt JWT.</li>
             <li>For design og prototype har jeg tatt i bruk verktøyet Figma.</li>
         </ul>
-
-        <h1 class="header-title technical-title">Funksjonalitet</h1>
-        <p>Noen av tingene jeg har lært ved å jobbe med dette prosjektet</p>
+      </div>
+      <div class="functionality">
+        <h1 class="">Funksjonalitet</h1>
+        <p id="functionality-subtitle">Noen av tingene jeg har lært ved å jobbe med dette prosjektet</p>
         <ul>
             <li>Bygge et trygt registrering-og innlogginssystem, med hashing av personlig informasjon.</li>
             <li>Jobbe med payment service provideren Stripe, og bruk av webhooks for e-post kvittering.</li>
             <li>Bygge ut et anmeldelsessystem.</li>
             <li>Arbeide med tid og dato, og hvordan jeg kan manipulere disse.</li>
         </ul>
+      </div>
     </main>
         <footer>
       <h1 id="footer-header">Ønsker du å komme i kontakt?</h1>

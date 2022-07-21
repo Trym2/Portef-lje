@@ -96,6 +96,10 @@ header {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #373737;
+}
+
 .project-image, #bedring-image {
     border-radius: 12px;
     width: 100%;

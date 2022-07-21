@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    margin-bottom: 6px;
+}
+
 footer {
     margin: 80px 0;
 }

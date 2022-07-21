@@ -73,6 +73,7 @@ header {
 
 #header-subtitle {
     font-size: 1.375rem;
+    max-width: 450px;
 }
 
 #header-subtitle, .bedring-subtitle {
@@ -130,6 +131,7 @@ header {
 
 #footer-subtext {
     margin-bottom: 24px;
+    max-width: 700px;
 }
 
 #bedring-image {
@@ -167,6 +169,65 @@ header {
 }
 
 
-@media only screen and (min-width: 977px) {
+@media only screen and (min-width: 992px) {
+    body {
+        margin: 0 60px;
+        align-items: unset;
+    }
+
+    main, header {
+        display: flex;
+
+    }
+
+    header {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #header-img {
+        width: 50%;
+        margin-left: 10px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #header-container {
+        width: 60%;
+    }
+
+    main {
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .project-image, footer, .header-container, header, main   {
+        width: 100%;
+    }
+
+    #bedring-image {
+        width: 40%;
+    }
+
+    #try {
+        width: 50%;
+    }
+
+
+    .project-section {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 1456px) {
+
+    html {
+        font-size: 20px;
+    }
+    body {
+        margin: 0 120px;
+    }
 
 }
